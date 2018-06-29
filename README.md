@@ -7,7 +7,7 @@
 First, clone the repo via git:
 
 ```bash
-git clone 
+git clone https://github.com/hakanozkaptan/RickandMorty.git
 ```
 
 ## Run
