@@ -1,0 +1,19 @@
+.header {
+  background: $header-color;
+  height: 120px;
+  @include flex-center-column;
+  background: $gray-color;
+
+  * {
+    @include flex-center;
+  }
+
+  .logo {
+    max-height: 120px;
+  }
+
+  .header-banner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

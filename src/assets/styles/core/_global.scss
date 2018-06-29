@@ -1,0 +1,60 @@
+html, body {
+  font-family: $system-font;
+  font-size: 100%;
+}
+
+body {
+  background-color: #fff;
+  color:#505050;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img, svg { max-width: 100%; }
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+* + * {
+  margin-top: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  margin-bottom: -0.1em;
+}
+p {
+  font-size: 0.875em;
+  color: #777;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  color: red;
+}
+
+.LazyLoad {
+  background: $gray-color;
+  min-width: 300px;
+  min-height: 300px;
+
+  &.is-visible {
+    background: $white-color;
+  }
+}
+
+.loading {
+  font-weight: bold;
+  margin: 0px auto;
+}

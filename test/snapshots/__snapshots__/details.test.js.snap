@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`detail snapshot testing should render correctly if loaded 1`] = `null`;
+
+exports[`detail snapshot testing should render correctly if not loaded 1`] = `null`;

@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+* Hide only visually, but have it available for screen readers: h5bp.com/v
+*/
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+* Extends the .visuallyhidden class to allow the element to be focusable
+* when navigated to via the keyboard: h5bp.com/p
+*/
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 100%; }
+
+body {
+  background-color: #fff;
+  color: #505050;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+img, svg {
+  max-width: 100%; }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0; }
+
+* + * {
+  margin-top: 1.5em; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  margin-bottom: -0.1em; }
+
+p {
+  font-size: 0.875em;
+  color: #777; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+a {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  color: red; }
+
+.LazyLoad {
+  background: #484848;
+  min-width: 300px;
+  min-height: 300px; }
+  .LazyLoad.is-visible {
+    background: #fefefe; }
+
+.loading {
+  font-weight: bold;
+  margin: 0px auto; }
+
+.header {
+  background: #fff;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #484848; }
+  .header * {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .header .logo {
+    max-height: 120px; }
+  .header .header-banner {
+    align-items: flex-start;
+    flex-direction: column; }
+
+.container {
+  display: grid;
+  align-content: end;
+  padding: 2em; }
+  .container h1 {
+    font-size: 1.5rem; }
+  .container h2 {
+    font-size: 1rem; }
+
+.top-left-radius, .card, .card img {
+  border-top-left-radius: 12px; }
+
+.top-right-radius, .card, .card img {
+  border-top-right-radius: 12px; }
+
+.bottom-left-radius, .card {
+  border-bottom-left-radius: 12px; }
+
+.bottom-right-radius, .card {
+  border-bottom-right-radius: 12px; }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.cards_item {
+  display: flex;
+  margin: 0px auto;
+  padding: 0 1em 2em; }
+  .no-flexbox .cards_item {
+    float: left; }
+  @media screen and (min-width: 42em) and (max-width: 60em) {
+    .cards_item {
+      width: 50%; }
+      .no-flexbox .cards_item:nth-child(2n+1) {
+        clear: both; } }
+  @media screen and (min-width: 100em) {
+    .cards_item {
+      width: 24.3333%; }
+      .no-flexbox .cards_item:nth-child(3n+1) {
+        clear: both; } }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 2 solid red;
+  box-shadow: 0px 0px 7px #aaaaaa;
+  cursor: pointer; }
+  .card:hover {
+    box-shadow: 0px 2px 30px #aaaaaa;
+    transition: 500ms; }
+    .card:hover .profile {
+      opacity: 1;
+      transition: 2s; }
+    .card:hover img {
+      opacity: 1;
+      transition: 1s; }
+
+.card_image img {
+  width: 100%;
+  opacity: 0.9; }
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  opacity: 0; }
+  .profile p {
+    font-size: 0.8rem;
+    margin-left: 10px; }
+
+.user-avatar {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+  float: left; }
+
+.card_content {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50px;
+  margin-top: 0;
+  padding: 1em; }
+  .card_content h2 {
+    color: #333333; }
+  .card_content p {
+    flex: 1 0 auto; }
+
+.pagination {
+  display: block;
+  position: relative;
+  padding: 0 2rem; }
+  .pagination .page-item {
+    margin-bottom: 15px;
+    float: left;
+    border-color: black; }
+    .pagination .page-item a {
+      padding: 10px 0 10px;
+      margin: 0 10px;
+      position: relative;
+      color: #2badfe;
+      border: 1px solid transparent;
+      border-color: #dcdcdc;
+      width: 40px;
+      border-radius: 3px;
+      text-align: center;
+      float: left; }
+  .pagination .active a {
+    background-color: #2badfe;
+    color: #fefefe; }
+
+.details-container {
+  width: 100%;
+  position: relative; }
+  .details-container .card {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+    max-width: 360px;
+    margin: auto;
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 20px; }
+    .details-container .card .card-body {
+      padding: 10px 10px 0; }
+      .details-container .card .card-body p {
+        border-top: 1px solid #484848;
+        padding: 15px 0; }
+        .details-container .card .card-body p label {
+          font-weight: bold; }
+      .details-container .card .card-body .card-title {
+        color: #000;
+        font-size: 2em;
+        opacity: .7;
+        margin: 10px 0;
+        padding-bottom: 10px; }
+        .details-container .card .card-body .card-title label {
+          font-size: .5em;
+          vertical-align: middle;
+          display: inline-block;
+          margin-top: -5px; }
+    .details-container .card .card-footer {
+      width: 100%;
+      padding: 0 10px 15px;
+      text-align: center; }
+      .details-container .card .card-footer .episode label {
+        text-decoration: underline;
+        margin-bottom: 5px;
+        display: block;
+        color: #000; }
+      .details-container .card .card-footer ul {
+        border-top: 1px solid #484848;
+        padding-top: 15px;
+        max-height: 245px;
+        overflow: scroll; }
+        .details-container .card .card-footer ul li {
+          padding-bottom: 12px; }
+  .details-container .button-center {
+    text-align: center;
+    margin-top: 20px; }
+  .details-container .bk-btn {
+    height: 52px;
+    width: 52px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0px auto; }
+    .details-container .bk-btn .bk-btn-triangle {
+      position: relative;
+      top: 13px;
+      left: 10.4px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-bottom: 13px solid transparent;
+      border-right: 13px solid white; }
+    .details-container .bk-btn .bk-btn-bar {
+      position: relative;
+      background-color: white;
+      height: 7.8px;
+      width: 13px;
+      top: -3.64px;
+      left: 22.88px; }

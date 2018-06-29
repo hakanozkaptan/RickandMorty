@@ -1,0 +1,700 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home snapshot testing should render correctly if loaded 1`] = `
+<div
+  class="home-page"
+>
+  <div
+    class="container page"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="container"
+      >
+        <ul
+          class="cards"
+        >
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/1"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Rick Sanchez
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/2"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Morty Smith
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/3"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Summer Smith
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/4"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Beth Smith
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/5"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Jerry Smith
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/6"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Abadango Cluster Princess
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/7"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Abradolf Lincler
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/8"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Adjudicator Rick
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/9"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Agency Director
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/10"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Alan Rails
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/11"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Albert Einstein
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/12"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Alexander
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/13"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Alien Googah
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/14"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Alien Morty
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/15"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Alien Rick
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/16"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Amish Cyborg
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/17"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Annie
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/18"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Antenna Morty
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/19"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Antenna Rick
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li
+            class="cards_item"
+          >
+            <div
+              class="card"
+            >
+              <a
+                href="/character/20"
+              >
+                <div
+                  class="LazyLoad"
+                  style="height:300px"
+                >
+                  
+                </div>
+                <div
+                  class="filler"
+                >
+                  
+                </div>
+                <div
+                  class="card_content"
+                >
+                  <h2
+                    class="card_heading"
+                  >
+                    Ants in my Eyes Johnson
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </li>
+          <div
+            class="loading"
+          >
+             
+            <img
+              alt="loader"
+              src="loading.svg"
+            >
+              
+            </img>
+            Loading...
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`home snapshot testing should render correctly if not loaded 1`] = `
+<div
+  class="home-page"
+>
+  <div
+    class="container page"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="container"
+      >
+        <ul
+          class="cards"
+        >
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
