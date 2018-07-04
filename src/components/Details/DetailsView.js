@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
@@ -29,11 +29,11 @@ const mapDispatchToProps = dispatch => ({
     dispatch({ type: CHARACTERS_EPISODE_UNLOADED })
 });
 
-class DetailsView extends React.Component {
+class DetailsView extends Component {
   componentWillMount() {
     const id = this.props.match.params.id;
-    const loadCharacterPromise = Promise.all([agent.Characters.getCharacterDetail(id)]);
 
+    const loadCharacterPromise = Promise.all([agent.Characters.getCharacterDetail(id)]);
     loadCharacterPromise.then((character) => {
       const promises = character[0].episode.map((episode) => {
         return agent.Episode.get(episode);

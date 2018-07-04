@@ -12,7 +12,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  fetchData: (payload) => dispatch({ type: GET_DATA, payload })
+  fetchData: payload => 
+    dispatch({ type: GET_DATA, payload })
 });
 
 class HomeView extends Component {
