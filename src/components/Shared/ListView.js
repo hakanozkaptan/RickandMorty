@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import { ListItemView } from './ListItemView';
 import InfiniteScroll from 'react-infinite-scroller';
-
 import loaderImage from '../../assets/images/loading.svg';
 
 const mapStateToProps = state => ({
@@ -48,5 +48,12 @@ const ListView = props => {
     </div>
   );
 };
+
+ListView.propTypes = {
+  characters: PropTypes.array.isRequired,
+  currentPage: PropTypes.number,
+  pageCount: PropTypes.number,
+  loadMore: PropTypes.func
+}
 
 export default connect(mapStateToProps, () => {})(ListView);

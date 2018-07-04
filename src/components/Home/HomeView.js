@@ -3,11 +3,12 @@ import { connect } from 'react-redux';
 import agent from '../../agent';
 import { GET_DATA } from '../../constants/actionTypes';
 import ListView from '../Shared/ListView';
+import PropTypes from 'prop-types';
 
 const mapStateToProps = state => ({
-  characters: state.characters.characters,
-  page: state.characters.page,
-  pageCount: state.characters.pageCount
+  characters: state.characterList.characters,
+  page: state.characterList.page,
+  pageCount: state.characterList.pageCount
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -56,5 +57,10 @@ class HomeView extends Component {
   } 
 }
 
+HomeView.propTypes = {
+  characters: PropTypes.array,
+  page: PropTypes.number,
+  pageCount: PropTypes.number,
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(HomeView);
